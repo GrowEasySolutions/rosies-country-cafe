@@ -1,0 +1,1 @@
+export default function Menu(){return(<div className='container py-12'><h1 className='text-3xl font-bold'>Menu</h1><p>Menu coming soon.</p></div>);}
