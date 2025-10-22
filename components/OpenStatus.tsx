@@ -29,8 +29,8 @@ export default function OpenStatus() {
   const [open, setOpen] = useState(isOpenNow());
 
   useEffect(() => {
-    const interval = setInterval(() => setOpen(isOpenNow()), 60000);
-    return () => clearInterval(interval);
+    const id = setInterval(() => setOpen(isOpenNow()), 60000);
+    return () => clearInterval(id);
   }, []);
 
   return (
