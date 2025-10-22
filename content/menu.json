@@ -5,7 +5,7 @@
       "slug": "breakfast-traditional",
       "title": "Breakfast – Traditional",
       "note": "Served with bread or 3 slices of tomato",
-      "image": "/images/sections/breakfast-traditional.jpg",
+      "image": "/images/interior.jpg",
       "items": [
         { "id": "farmer-veggie", "name": "Farmer Veggie Breakfast", "price": 13.99, "description": "Pan fries, grilled tomato, 2 eggs, sautéed mushrooms & toast" },
         { "id": "chicken-sausage-gf", "name": "Chicken Sausage Breakfast (Gluten Free)", "price": 15.00 },
