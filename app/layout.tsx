@@ -15,7 +15,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <a href="/" className="flex items-center gap-3">
               <img src="/images/logo.png" alt="Rosie’s Country Café Logo" className="h-10 w-auto" />
               <span className="font-bold text-xl">Rosie’s Country Café</span>
-            </a>
+            import OpenStatus from "@/components/OpenStatus"; // add at the top
+// inside the header right after the logo link
+ </a>
+<OpenStatus />
             <nav className="hidden md:flex gap-6">
               <a href="/menu">Menu</a>
               <a href="/about">About</a>
