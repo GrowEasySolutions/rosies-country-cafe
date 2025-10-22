@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import type { ReactNode } from "react";
-
+import OpenStatus from "@/components/OpenStatus"; // add at the top
 export const metadata = {
   title: "Rosie’s Country Café | Halal Breakfast & Comfort Food in Surrey, BC",
   description: "Family-run halal breakfast & brunch café serving waffles, omelettes, and comfort classics."
@@ -15,7 +15,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <a href="/" className="flex items-center gap-3">
   <img src="/images/logo.png" alt="Rosie’s Country Café Logo" className="h-10 w-auto" />
   <span className="font-bold text-xl">Rosie’s Country Café</span>
-              import OpenStatus from "@/components/OpenStatus"; // add at the top
 // inside the header right after the logo link
 <OpenStatus />
 </a>
