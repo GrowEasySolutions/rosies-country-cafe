@@ -1,0 +1,538 @@
+{
+  "updatedAt": "2025-10-21",
+  "categories": [
+    {
+      "slug": "breakfast-traditional",
+      "title": "Breakfast \u2013 Traditional",
+      "note": "Served with bread or 3 slices of tomato",
+      "items": [
+        {
+          "id": "farmer-veggie",
+          "name": "Farmer Veggie Breakfast",
+          "price": 13.99,
+          "description": "Pan fries, grilled tomato, 2 eggs, saut\u00e9ed mushrooms & toast"
+        },
+        {
+          "id": "chicken-sausage-gf",
+          "name": "Chicken Sausage Breakfast (Gluten Free)",
+          "price": 15.0
+        },
+        {
+          "id": "spicy-chicken-sausage",
+          "name": "Spicy Chicken Sausage Breakfast",
+          "price": 14.5
+        },
+        {
+          "id": "breakfast-wrap",
+          "name": "Breakfast Wrap",
+          "price": 14.5,
+          "description": "Pan fries, onion, green pepper, spinach, egg & cheese"
+        },
+        {
+          "id": "veggie-bowl",
+          "name": "Veggie Bowl",
+          "price": 14.5,
+          "description": "Onion, green pepper, spinach, 3 eggs, mushrooms, tomatoes & cheese"
+        }
+      ]
+    },
+    {
+      "slug": "breakfast-classics",
+      "title": "Breakfast \u2013 Classics",
+      "items": [
+        {
+          "id": "2-pancakes-2-eggs",
+          "name": "Two Pancakes & Two Eggs",
+          "price": 10.99
+        },
+        {
+          "id": "2-pancakes-fruits",
+          "name": "Two Pancakes with Fruits",
+          "price": 11.5
+        },
+        {
+          "id": "waffle",
+          "name": "Waffle",
+          "price": 8.0
+        },
+        {
+          "id": "waffle-chicken",
+          "name": "Waffle & 2 Strips Crispy Chicken",
+          "price": 14.99
+        },
+        {
+          "id": "fruits-waffle",
+          "name": "Fruits Waffle",
+          "price": 12.5
+        },
+        {
+          "id": "cream-cheese-waffle",
+          "name": "Cream Cheese Waffle with Strawberry",
+          "price": 13.5
+        },
+        {
+          "id": "waffle-2-eggs",
+          "name": "Waffle & 2 Eggs",
+          "price": 12.5
+        },
+        {
+          "id": "french-toast-eggs",
+          "name": "French Toast and Eggs",
+          "price": 12.5
+        },
+        {
+          "id": "french-toast-fruits",
+          "name": "2 Slices French Toast & Fruits",
+          "price": 12.5
+        },
+        {
+          "id": "cheesy-fried-egg-sandwich",
+          "name": "Cheesy Fried Egg Sandwich",
+          "price": 13.5
+        }
+      ]
+    },
+    {
+      "slug": "omelettes",
+      "title": "Omelettes",
+      "note": "Served with pan fries, 3 tomato slices or toast",
+      "items": [
+        {
+          "id": "cheddar-omelette",
+          "name": "Cheddar Cheese Omelette",
+          "price": 14.0
+        },
+        {
+          "id": "veggie-omelette",
+          "name": "Veggie Omelette",
+          "price": 14.75
+        },
+        {
+          "id": "shrimp-omelette",
+          "name": "Shrimp Omelette",
+          "price": 15.0
+        },
+        {
+          "id": "greek-omelette",
+          "name": "Greek Omelette",
+          "price": 15.0
+        },
+        {
+          "id": "chicken-sausage-swiss-omelette",
+          "name": "Chicken Sausage Swiss Omelette",
+          "price": 15.0
+        },
+        {
+          "id": "jalapeno-omelette",
+          "name": "Jalape\u00f1o Omelette",
+          "price": 15.0
+        },
+        {
+          "id": "mexican-omelette",
+          "name": "Mexican Omelette",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "slug": "bennies",
+      "title": "Bennies",
+      "note": "Served with pan fries \u2014 Full / Half",
+      "items": [
+        {
+          "id": "shrimp-benny-full",
+          "name": "Shrimp Benny (Full)",
+          "price": 15.0
+        },
+        {
+          "id": "shrimp-benny-half",
+          "name": "Shrimp Benny (Half)",
+          "price": 12.0
+        },
+        {
+          "id": "garden-benny-full",
+          "name": "Garden Benny (Full)",
+          "price": 15.0
+        },
+        {
+          "id": "garden-benny-half",
+          "name": "Garden Benny (Half)",
+          "price": 12.0
+        },
+        {
+          "id": "chicken-mush-benny-full",
+          "name": "Chicken Sausage Mushroom Benny (Full)",
+          "price": 15.0
+        },
+        {
+          "id": "eggs-bendo-full",
+          "name": "Eggs Bendo (Full)",
+          "price": 15.0
+        },
+        {
+          "id": "roast-beef-jalapeno-benny-full",
+          "name": "Roasted Beef Steak Jalape\u00f1o Benny (Full)",
+          "price": 15.0
+        },
+        {
+          "id": "salmon-benny-full",
+          "name": "Salmon Benny (Full)",
+          "price": 16.0
+        },
+        {
+          "id": "salmon-benny-half",
+          "name": "Salmon Benny (Half)",
+          "price": 13.0
+        },
+        {
+          "id": "crispy-chicken-swiss-benny-full",
+          "name": "Crispy Chicken Swiss Benny (Full)",
+          "price": 16.0
+        },
+        {
+          "id": "crispy-chicken-swiss-benny-half",
+          "name": "Crispy Chicken Swiss Benny (Half)",
+          "price": 13.0
+        }
+      ]
+    },
+    {
+      "slug": "wraps",
+      "title": "Wraps",
+      "note": "Served with fries or salad",
+      "items": [
+        {
+          "id": "crispy-chicken-cheddar-wrap",
+          "name": "Crispy Chicken Cheddar Wrap",
+          "price": 15.0
+        },
+        {
+          "id": "honey-mustard-grilled-chicken-swiss-wrap",
+          "name": "Honey Mustard Grilled Chicken Swiss Wrap",
+          "price": 15.0
+        },
+        {
+          "id": "tandoori-chicken-chipotle-wrap",
+          "name": "Tandoori Chicken Chipotle Wrap",
+          "price": 15.0
+        },
+        {
+          "id": "grilled-chicken-ranch-wrap",
+          "name": "Grilled Chicken Ranch Wrap",
+          "price": 15.0
+        },
+        {
+          "id": "veggie-wrap",
+          "name": "Veggie Wrap",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "slug": "lunch-chicken-burgers",
+      "title": "Lunch \u2013 Chicken Burgers",
+      "note": "Served with salad or fries",
+      "items": [
+        {
+          "id": "cajun-chicken-burger",
+          "name": "Cajun Chicken Burger",
+          "price": 14.75
+        },
+        {
+          "id": "chicken-burger",
+          "name": "Chicken Burger",
+          "price": 13.5
+        },
+        {
+          "id": "chicken-swiss-burger",
+          "name": "Chicken Swiss Burger",
+          "price": 14.75
+        },
+        {
+          "id": "bbq-chicken-burger",
+          "name": "BBQ Chicken Burger",
+          "price": 14.75
+        },
+        {
+          "id": "crispy-chicken-swiss-burger",
+          "name": "Crispy Chicken Swiss Burger",
+          "price": 15.0
+        },
+        {
+          "id": "chicken-mushroom-swiss-burger",
+          "name": "Chicken Mushroom Swiss Burger",
+          "price": 15.0
+        },
+        {
+          "id": "crispy-chicken-and-fries",
+          "name": "Crispy Chicken & Fries",
+          "price": 14.5
+        }
+      ]
+    },
+    {
+      "slug": "lunch-beef-burgers",
+      "title": "Lunch \u2013 Beef Burgers",
+      "note": "Served with salad or fries",
+      "items": [
+        {
+          "id": "deluxe-beef",
+          "name": "Deluxe Beef Burger",
+          "price": 13.5
+        },
+        {
+          "id": "deluxe-cheese",
+          "name": "Deluxe Cheese Burger",
+          "price": 14.5
+        },
+        {
+          "id": "mushroom-swiss-beef",
+          "name": "Beef Patty Mushroom Swiss Burger",
+          "price": 15.0
+        },
+        {
+          "id": "spinach-feta-burger",
+          "name": "Spinach Feta Burger",
+          "price": 15.0
+        },
+        {
+          "id": "mozza-burger",
+          "name": "Mozza Burger",
+          "price": 14.75
+        },
+        {
+          "id": "jalapeno-mozza-burger",
+          "name": "Jalape\u00f1o Mozza Burger",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "slug": "sandwiches",
+      "title": "Sandwiches",
+      "note": "Served with salad or fries",
+      "items": [
+        {
+          "id": "patty-melt",
+          "name": "Patty Melt",
+          "price": 14.75
+        },
+        {
+          "id": "sourdough-turkey-melt",
+          "name": "Sourdough Turkey Melt",
+          "price": 14.75
+        },
+        {
+          "id": "grilled-cheese",
+          "name": "Grilled Cheese",
+          "price": 11.5
+        },
+        {
+          "id": "philly-cheese-steak",
+          "name": "Philly Cheese Steak",
+          "price": 14.75
+        },
+        {
+          "id": "reuben",
+          "name": "Reuben",
+          "price": 14.75
+        }
+      ]
+    },
+    {
+      "slug": "kebabs-fish",
+      "title": "Kebabs & Fish",
+      "note": "Served with rice & salad",
+      "items": [
+        {
+          "id": "tandoori-chicken-kebab",
+          "name": "Tandoori Grilled Chicken Kebab",
+          "price": 15.5
+        },
+        {
+          "id": "bihari-kebab",
+          "name": "Bihari Kebab",
+          "price": 15.5
+        },
+        {
+          "id": "beef-seekh",
+          "name": "Beef Seekh Kebab",
+          "price": 15.5
+        },
+        {
+          "id": "smoky-fish-rice",
+          "name": "Smoky Fish & Rice",
+          "price": 15.5
+        }
+      ]
+    },
+    {
+      "slug": "wings",
+      "title": "Chicken Wings",
+      "items": [
+        {
+          "id": "honey-garlic-6",
+          "name": "Honey Garlic Wings (6 pcs)",
+          "price": 8.99
+        },
+        {
+          "id": "honey-garlic-10",
+          "name": "Honey Garlic Wings (10 pcs)",
+          "price": 12.99
+        },
+        {
+          "id": "buffalo-6",
+          "name": "Buffalo Wings (6 pcs)",
+          "price": 8.99
+        },
+        {
+          "id": "buffalo-10",
+          "name": "Buffalo Wings (10 pcs)",
+          "price": 12.99
+        }
+      ]
+    },
+    {
+      "slug": "sides-salads",
+      "title": "Sides & Salads",
+      "items": [
+        {
+          "id": "gravy",
+          "name": "Gravy",
+          "price": 4.5
+        },
+        {
+          "id": "fries",
+          "name": "Fries",
+          "price": 5.5
+        },
+        {
+          "id": "yam-fries",
+          "name": "Yam Fries & Chipotle Mayo",
+          "price": 7.0
+        },
+        {
+          "id": "onion-rings",
+          "name": "Onion Rings",
+          "price": 5.5
+        },
+        {
+          "id": "cajun-spice",
+          "name": "Cajun Spice",
+          "price": 0.5
+        },
+        {
+          "id": "eggs-side",
+          "name": "Eggs",
+          "price": 1.7
+        },
+        {
+          "id": "toast",
+          "name": "Toast",
+          "price": 2.95
+        },
+        {
+          "id": "cheese-side",
+          "name": "Cheese",
+          "price": 1.5
+        },
+        {
+          "id": "pan-fries",
+          "name": "Pan Fries",
+          "price": 4.5
+        },
+        {
+          "id": "hollandaise",
+          "name": "Hollandaise",
+          "price": 3.0
+        },
+        {
+          "id": "tomato-slices-3",
+          "name": "Tomato Slices (3)",
+          "price": 4.0
+        },
+        {
+          "id": "tossed-salad",
+          "name": "Tossed Salad",
+          "price": 5.5
+        },
+        {
+          "id": "prawn-cocktail-salad",
+          "name": "Prawn Cocktail Salad",
+          "price": 13.5
+        },
+        {
+          "id": "greek-salad",
+          "name": "Greek Salad",
+          "price": 10.0
+        },
+        {
+          "id": "grilled-chicken-salad",
+          "name": "Grilled Chicken Salad",
+          "price": 13.0
+        }
+      ]
+    },
+    {
+      "slug": "drinks",
+      "title": "Drinks",
+      "items": [
+        {
+          "id": "masala-tea",
+          "name": "Masala Tea",
+          "price": 3.5
+        },
+        {
+          "id": "tea",
+          "name": "Tea",
+          "price": 3.25
+        },
+        {
+          "id": "coffee",
+          "name": "Coffee",
+          "price": 3.25
+        },
+        {
+          "id": "french-vanilla",
+          "name": "French Vanilla",
+          "price": 3.25
+        },
+        {
+          "id": "english-toffee",
+          "name": "English Toffee",
+          "price": 3.25
+        },
+        {
+          "id": "hot-chocolate",
+          "name": "Hot Chocolate",
+          "price": 3.5
+        },
+        {
+          "id": "pop",
+          "name": "Pop",
+          "price": 2.5
+        },
+        {
+          "id": "juice",
+          "name": "Juice",
+          "price": 3.25
+        },
+        {
+          "id": "water",
+          "name": "Water Bottle",
+          "price": 1.25
+        },
+        {
+          "id": "milk",
+          "name": "Regular Milk",
+          "price": 2.5
+        },
+        {
+          "id": "chocolate-milk",
+          "name": "Chocolate Milk",
+          "price": 2.75
+        }
+      ]
+    }
+  ]
+}
