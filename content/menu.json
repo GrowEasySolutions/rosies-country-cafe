@@ -1,0 +1,56 @@
+{
+  "updatedAt": "2025-10-21",
+  "categories": [
+    {
+      "slug": "breakfast-traditional",
+      "title": "Breakfast \u2013 Traditional",
+      "note": "Served with bread or 3 slices of tomato",
+      "image": "/images/sections/breakfast-traditional.jpg",
+      "items": [
+        {
+          "id": "farmer-veggie",
+          "name": "Farmer Veggie Breakfast",
+          "price": 13.99,
+          "description": "Pan fries, grilled tomato, 2 eggs, mushrooms & toast"
+        }
+      ]
+    },
+    {
+      "slug": "breakfast-classics",
+      "title": "Breakfast \u2013 Classics",
+      "image": "/images/sections/breakfast-classics.jpg",
+      "items": [
+        {
+          "id": "waffle",
+          "name": "Waffle",
+          "price": 8.0
+        }
+      ]
+    },
+    {
+      "slug": "omelettes",
+      "title": "Omelettes",
+      "note": "Served with pan fries, 3 tomato slices or toast",
+      "image": "/images/sections/omelettes.jpg",
+      "items": [
+        {
+          "id": "greek-omelette",
+          "name": "Greek Omelette",
+          "price": 15.0
+        }
+      ]
+    },
+    {
+      "slug": "drinks",
+      "title": "Drinks",
+      "image": "/images/sections/drinks.jpg",
+      "items": [
+        {
+          "id": "masala-tea",
+          "name": "Masala Tea",
+          "price": 3.5
+        }
+      ]
+    }
+  ]
+}
