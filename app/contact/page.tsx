@@ -9,15 +9,15 @@ export default function ContactPage() {
           <p><strong>Email:</strong> <a href="mailto:info@rosiescountrycafe.ca" className="underline">info@rosiescountrycafe.ca</a></p>
           <div className="mt-4">
             <p className="font-semibold">Hours:</p>
-            <ul className="list-disc ml-5">
-              <li>Tuesday: 8:30 a.m.–5 p.m.</li>
-              <li>Wednesday: 8:30 a.m.–5 p.m.</li>
-              <li>Thursday: 8:30 a.m.–7 p.m.</li>
-              <li>Friday: 8:30 a.m.–7 p.m.</li>
-              <li>Saturday: 8:30 a.m.–7 p.m.</li>
-              <li>Sunday: 8:30 a.m.–5:05 p.m.</li>
-              <li>Monday: Closed</li>
-            </ul>
+          <ul className="list-disc ml-5">
+  <li>Monday: Closed</li>
+  <li>Tuesday: 8:30 a.m.– 3:00 p.m.</li>
+  <li>Wednesday: 8:30 a.m.– 3:00 p.m.</li>
+  <li>Thursday: 8:30 a.m.– 3:00 p.m.</li>
+  <li>Friday: 8:30 a.m.– 3:00 p.m.</li>
+  <li>Saturday: 8:30 a.m.– 5:00 p.m.</li>
+  <li>Sunday: 8:30 a.m.– 5:00 p.m.</li>
+</ul>
           </div>
         </div>
         <div>
