@@ -31,12 +31,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <p><strong>Address:</strong> 3033 King George Blvd, Unit #8, Surrey, BC V4P 1B8</p>
            <div className="grid sm:grid-cols-2 gap-x-8 gap-y-1 my-3">
   <p><strong>Monday:</strong> Closed</p>
-  <p><strong>Tuesday:</strong> 8:30 a.m.– 3:00 p.m.</p>
-  <p><strong>Wednesday:</strong> 8:30 a.m.– 3:00 p.m.</p>
-  <p><strong>Thursday:</strong> 8:30 a.m.– 3:00 p.m.</p>
-  <p><strong>Friday:</strong> 8:30 a.m.– 3:00 p.m.</p>
-  <p><strong>Saturday:</strong> 8:30 a.m.– 5:00 p.m.</p>
-  <p><strong>Sunday:</strong> 8:30 a.m.– 5:00 p.m.</p>
+  <p><strong>Tuesday - Friday:</strong> 8:30 a.m.– 3:00 p.m.</p>
+  <p><strong>Saturday & Sunday:</strong> 8:30 a.m.– 5:00 p.m.</p>
 </div>
             <div className="flex items-center gap-4 mt-4">
               <a href="#" aria-label="Facebook" title="Facebook">FB</a>
