@@ -10,23 +10,26 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="bg-cream text-cafe">
-        <header className="bg-cream sticky top-0 z-50 border-b border-wheat/50">
-          <div className="container flex items-center justify-between h-16">
-            <a href="/" className="flex items-center gap-3">
-  <img src="/images/logo.png" alt="Rosie’s Country Café Logo" className="h-10 w-auto" />
-  <span className="font-bold text-xl">Rosie’s Country Café</span>
-// inside the header right after the logo link
-<OpenStatus />
-</a>
-            <nav className="hidden md:flex gap-6">
-              <a href="/menu">Menu</a>
-              <a href="/about">About</a>
-              <a href="/gallery">Gallery</a>
-              <a href="/contact">Contact</a>
-              <a href="/order" className="btn">Order Online</a>
-            </nav>
-          </div>
-        </header>
+     <header className="bg-cream sticky top-0 z-50 border-b border-wheat/50">
+  <div className="container flex items-center justify-between h-16">
+    <div className="flex items-center gap-3">
+      <a href="/" className="flex items-center gap-3">
+        <img src="/images/logo.png" alt="Rosie’s Country Café Logo" className="h-10 w-auto" />
+        <span className="font-bold text-xl">Rosie’s Country Café</span>
+      </a>
+      {/* ✅ Badge sits next to the logo (but not inside the <a>) */}
+      <OpenStatus />
+    </div>
+
+    <nav className="hidden md:flex gap-6">
+      <a href="/menu">Menu</a>
+      <a href="/about">About</a>
+      <a href="/gallery">Gallery</a>
+      <a href="/contact">Contact</a>
+      <a href="/order" className="btn">Order Online</a>
+    </nav>
+  </div>
+</header>
         <main>{children}</main>
         <footer className="mt-16 border-t border-wheat/50">
           <div className="container py-8 text-sm">
