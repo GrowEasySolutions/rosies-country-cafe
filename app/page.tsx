@@ -1,16 +1,17 @@
 export default function HomePage() {
   return (
-    <section className="relative text-center py-32 text-white overflow-hidden">
-      {/* Background image */}
+    <section className="relative text-center text-white min-h-[60vh] md:min-h-[70vh] flex items-center overflow-hidden">
+      {/* Background image (no negative z-index) */}
       <div
-        className="absolute inset-0 bg-center bg-cover -z-10"
+        className="absolute inset-0 bg-center bg-cover z-0"
         style={{ backgroundImage: "url('/images/hero.jpg')" }}
       />
-      {/* Dark overlay ABOVE image but BELOW text */}
-      <div className="absolute inset-0 bg-black/40 z-0" />
 
-      {/* Content on top */}
-      <div className="relative z-10 max-w-2xl mx-auto px-6">
+      {/* Contrast overlay above bg, below content */}
+      <div className="absolute inset-0 bg-black/40 z-10" />
+
+      {/* Foreground content */}
+      <div className="relative z-20 max-w-2xl mx-auto px-6">
         <h1 className="text-4xl md:text-5xl font-serif mb-4">
           Homestyle Breakfast & Halal Comfort Classics
         </h1>
