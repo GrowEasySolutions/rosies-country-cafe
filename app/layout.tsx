@@ -16,7 +16,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   <img src="/images/logo.png" alt="Rosie’s Country Café Logo" className="h-10 w-auto" />
   <span className="font-bold text-xl">Rosie’s Country Café</span>
               import OpenStatus from "@/components/OpenStatus"; // add at the top
-
 // inside the header right after the logo link
 <OpenStatus />
 </a>
