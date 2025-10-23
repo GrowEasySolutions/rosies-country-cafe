@@ -5,7 +5,7 @@
       "slug": "breakfast-traditional",
       "title": "Breakfast – Traditional",
       "note": "Served with bread or 3 slices of tomato",
-      "image": "/images/sections/breakfast-traditional.jpg",
+      "image": "/images/sections/breakfast-traditional",
       "items": [
         { "id": "farmer-veggie", "name": "Farmer Veggie Breakfast", "price": 13.99, "description": "Pan fries, grilled tomato, 2 eggs, sautéed mushrooms & toast" },
         { "id": "chicken-sausage-gf", "name": "Chicken Sausage Breakfast (Gluten Free)", "price": 15.00 },
@@ -17,7 +17,7 @@
     {
       "slug": "breakfast-classics",
       "title": "Breakfast – Classics",
-      "image": "/images/sections/breakfast-classics.jpg",
+      "image": "/images/sections/breakfast-classics",
       "items": [
         { "id": "2-pancakes-2-eggs", "name": "Two Pancakes & Two Eggs", "price": 10.99 },
         { "id": "2-pancakes-fruits", "name": "Two Pancakes with Fruits", "price": 11.50 },
@@ -35,7 +35,7 @@
       "slug": "omelettes",
       "title": "Omelettes",
       "note": "Served with pan fries, 3 tomato slices or toast",
-      "image": "/images/sections/omelettes.jpg",
+      "image": "/images/sections/omelettes",
       "items": [
         { "id": "cheddar-omelette", "name": "Cheddar Cheese Omelette", "price": 14.00 },
         { "id": "veggie-omelette", "name": "Veggie Omelette", "price": 14.75 },
@@ -50,7 +50,7 @@
       "slug": "bennies",
       "title": "Bennies",
       "note": "Served with pan fries — Full / Half",
-      "image": "/images/sections/bennies.jpg",
+      "image": "/images/sections/bennies",
       "items": [
         { "id": "shrimp-benny-full", "name": "Shrimp Benny (Full)", "price": 15.00 },
         { "id": "shrimp-benny-half", "name": "Shrimp Benny (Half)", "price": 12.00 },
@@ -69,7 +69,7 @@
       "slug": "wraps",
       "title": "Wraps",
       "note": "Served with fries or salad",
-      "image": "/images/sections/wraps.jpg",
+      "image": "/images/sections/wraps",
       "items": [
         { "id": "crispy-chicken-cheddar-wrap", "name": "Crispy Chicken Cheddar Wrap", "price": 15.00 },
         { "id": "honey-mustard-grilled-chicken-swiss-wrap", "name": "Honey Mustard Grilled Chicken Swiss Wrap", "price": 15.00 },
@@ -82,7 +82,7 @@
       "slug": "lunch-chicken-burgers",
       "title": "Lunch – Chicken Burgers",
       "note": "Served with salad or fries",
-      "image": "/images/sections/chicken-burgers.jpg",
+      "image": "/images/sections/chicken-burgers",
       "items": [
         { "id": "cajun-chicken-burger", "name": "Cajun Chicken Burger", "price": 14.75 },
         { "id": "chicken-burger", "name": "Chicken Burger", "price": 13.50 },
@@ -97,7 +97,7 @@
       "slug": "lunch-beef-burgers",
       "title": "Lunch – Beef Burgers",
       "note": "Served with salad or fries",
-      "image": "/images/sections/beef-burgers.jpg",
+      "image": "/images/sections/beef-burgers",
       "items": [
         { "id": "deluxe-beef", "name": "Deluxe Beef Burger", "price": 13.50 },
         { "id": "deluxe-cheese", "name": "Deluxe Cheese Burger", "price": 14.50 },
@@ -111,7 +111,7 @@
       "slug": "sandwiches",
       "title": "Sandwiches",
       "note": "Served with salad or fries",
-      "image": "/images/sections/sandwiches.jpg",
+      "image": "/images/sections/sandwiches",
       "items": [
         { "id": "patty-melt", "name": "Patty Melt", "price": 14.75 },
         { "id": "sourdough-turkey-melt", "name": "Sourdough Turkey Melt", "price": 14.75 },
@@ -124,7 +124,7 @@
       "slug": "kebabs-fish",
       "title": "Kebabs & Fish",
       "note": "Served with rice & salad",
-      "image": "/images/sections/kebabs-fish.jpg",
+      "image": "/images/sections/kebabs-fish",
       "items": [
         { "id": "tandoori-chicken-kebab", "name": "Tandoori Grilled Chicken Kebab", "price": 15.50 },
         { "id": "bihari-kebab", "name": "Bihari Kebab", "price": 15.50 },
@@ -135,7 +135,7 @@
     {
       "slug": "wings",
       "title": "Chicken Wings",
-      "image": "/images/sections/wings.jpg",
+      "image": "/images/sections/wings",
       "items": [
         { "id": "honey-garlic-6", "name": "Honey Garlic Wings (6 pcs)", "price": 8.99 },
         { "id": "honey-garlic-10", "name": "Honey Garlic Wings (10 pcs)", "price": 12.99 },
@@ -146,7 +146,7 @@
     {
       "slug": "sides-salads",
       "title": "Sides & Salads",
-      "image": "/images/sections/sides-salads.jpg",
+      "image": "/images/sections/sides-salads",
       "items": [
         { "id": "gravy", "name": "Gravy", "price": 4.50 },
         { "id": "fries", "name": "Fries", "price": 5.50 },
@@ -168,7 +168,7 @@
     {
       "slug": "drinks",
       "title": "Drinks",
-      "image": "/images/sections/drinks.jpg",
+      "image": "/images/sections/drinks",
       "items": [
         { "id": "masala-tea", "name": "Masala Tea", "price": 3.50 },
         { "id": "tea", "name": "Tea", "price": 3.25 },
