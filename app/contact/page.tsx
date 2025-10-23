@@ -6,7 +6,7 @@ export default function ContactPage() {
         <div className="space-y-3">
           <p><strong>Address:</strong> 3033 King George Blvd, Unit #8, Surrey, BC V4P 1B8</p>
           <p><strong>Phone:</strong> <a href="tel:16045384195" className="underline"> (604) 538-4195</a></p>
-          <p><strong>Email:</strong> <a href="mailto:info@rosiescountrycafe.ca" className="underline">info@rosiescountrycafe.ca</a></p>
+          <p><strong>Email:</strong> <a href="mailto:info@rosiescountrycafe.ca" className="underline">rosiescountrycafe@gmail.com</a></p>
           <div className="mt-4">
             <p className="font-semibold">Hours:</p>
           <ul className="list-disc ml-5">
