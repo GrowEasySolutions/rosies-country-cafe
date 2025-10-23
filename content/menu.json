@@ -82,7 +82,7 @@
       "slug": "lunch-chicken-burgers",
       "title": "Lunch – Chicken Burgers",
       "note": "Served with salad or fries",
-      "image": "/images/sections/chicken-burger",
+      "image": "/images/sections/chicken-burgers",
       "items": [
         { "id": "cajun-chicken-burger", "name": "Cajun Chicken Burger", "price": 14.75 },
         { "id": "chicken-burger", "name": "Chicken Burger", "price": 13.50 },
@@ -97,7 +97,7 @@
       "slug": "lunch-beef-burgers",
       "title": "Lunch – Beef Burgers",
       "note": "Served with salad or fries",
-      "image": "/images/sections/beef-burger",
+      "image": "/images/sections/beef-burgers",
       "items": [
         { "id": "deluxe-beef", "name": "Deluxe Beef Burger", "price": 13.50 },
         { "id": "deluxe-cheese", "name": "Deluxe Cheese Burger", "price": 14.50 },
