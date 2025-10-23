@@ -2,20 +2,19 @@
 
 import { useMemo, useState } from "react";
 
-/**
- * FlexibleImage tries multiple file extensions for the same image.
- * - Accepts a path WITH or WITHOUT an extension (e.g. "/images/x" or "/images/x.png").
- * - Tries in order: .webp → .jpg → .png (you can change the order below).
- * - If a specific extension is provided, it tries that first, then the alternates.
- */
 type Props = {
-  src: string;        // "/images/sections/omelettes" OR "/images/sections/omelettes.png"
+  /** Base path with or without extension.
+   *  Examples: "/images/sections/chicken-burgers" or "/images/sections/chicken-burgers.png"
+   */
+  src: string;
   alt: string;
   className?: string;
   width?: number;
   height?: number;
   loading?: "eager" | "lazy";
   fetchPriority?: "high" | "low" | "auto";
+  /** Optional final fallback if all candidates 404 */
+  fallbackSrc?: string;
 };
 
 export default function FlexibleImage({
@@ -26,23 +25,24 @@ export default function FlexibleImage({
   height,
   loading = "lazy",
   fetchPriority = "auto",
+  fallbackSrc = "/images/placeholder-section.jpg",
 }: Props) {
-  // split into base + ext (if provided)
+  // Split into base + extension (if present)
   const m = src.match(/^(.*?)(\.(webp|png|jpg|jpeg))$/i);
   const base = m ? m[1] : src;
   const explicitExt = m ? (m[3].toLowerCase() === "jpeg" ? "jpg" : m[3].toLowerCase()) : null;
 
-  // Order of preference (edit if you like)
-  const pref = ["webp", "jpg", "png"];
+  // Try in this order (you can change the preference)
+  const preference = ["webp", "jpg", "png"];
 
   const candidates = useMemo(() => {
-    // If an extension was provided, try it first, then the alternates.
-    const order = explicitExt ? [explicitExt, ...pref.filter((e) => e !== explicitExt)] : pref;
+    const order = explicitExt ? [explicitExt, ...preference.filter((e) => e !== explicitExt)] : preference;
     return order.map((ext) => `${base}.${ext}`);
   }, [base, explicitExt]);
 
   const [idx, setIdx] = useState(0);
-  const current = candidates[idx];
+  const usingFallback = idx >= candidates.length;
+  const current = usingFallback ? fallbackSrc : candidates[idx];
 
   return (
     <img
@@ -54,8 +54,17 @@ export default function FlexibleImage({
       loading={loading}
       fetchPriority={fetchPriority}
       onError={() => {
-        // try next candidate if this one 404s
-        setIdx((i) => (i + 1 < candidates.length ? i + 1 : i));
+        // IMPORTANT: use functional updater to avoid stale state issues
+        setIdx((prev) => {
+          const next = prev + 1;
+          if (next < candidates.length) return next;
+          if (!usingFallback) {
+            // will switch to fallback on next render
+            console.warn(`FlexibleImage: All candidates failed for "${src}". Using fallback: ${fallbackSrc}`);
+            return candidates.length;
+          }
+          return prev; // already on fallback
+        });
       }}
     />
   );
